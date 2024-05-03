@@ -1,4 +1,6 @@
 #include <iostream>
+#include "mahdi.hpp"
+
 using namespace std;
 int main()
 {
@@ -11,11 +13,9 @@ int main()
 	cout<<"\n\t\t\t\t\t\t\t4 : List of whole books";
 	cout<<"\n\t\t\t\t\t\t\t5 : Counter for book categories";
 	cout<<"\n\t\t\t\t\t\t\t6 : Exit"<<endl;
-	cout<<"\n\t\t\t\t\t\t\tEnter Your Choice : ";
-	cin >> Menu_Choice;
-
-
-
+	
+	//I want to hasndle the digits error in just one line of code .
+	digit_error(1 , 6);
 
 
 
